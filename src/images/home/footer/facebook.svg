@@ -1,0 +1,11 @@
+<svg id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3b5998;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="15" cy="15" r="15"/>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" x="11" y="7" width="8" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQCAYAAAArij59AAAAgUlEQVQokdWQsQnDQAxFn0PgNnDjBTJG+jSu03oGg9fwHFnmymBwCkOGSBG+UfDhu1yM6zyQEOIhCRWSiDgBF6AEHPDEhCWukt5K8bEwKCcRYjpJzvoHfnMHXlYcgRaovoQGOAMPG+2zzSu3rRWBaevIOvT3JvyHYJ8M9FE9fjIwAwBxm07iX8WFAAAAAElFTkSuQmCC"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #55acee;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="15" cy="15" r="15"/>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" x="5" y="7" width="20" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAABZElEQVQ4jZ2UP0scURRHT0QRNFkWEW1MkYTAYiCFjYVKwMImzZIiSDoLISiEVPGTWFmlDpbin8IPYCNahKQIBIOFCCrRgBvJHpnNDDszb2cWPXBh3pt7f+/O3HvfA5U7MAi8BZ4Cv4AvwHkcPgScEQmqT9TF+LnIaupPs5yqK+qm+r6VXBwcLf6pHwrEItu3mEP1k/oocf6Ycl1XH+fExgul/vNHnUtnOJFz+Kt+Vl+rVXU6kMiylByeCI6oa4Fbm8tgJ0s9EeyJK/QOqJcU+2Gwk+U4WSVt8wz4BvQGrt25ilvmJvJMMvwBLAPNewjuJGItUpWsqKvqdfCHyplNd0RP6qTfwAugP8ihmG1gN/M212/D6kZpPm1O1LH8AHSaiMgW1EYg0eZCnewQ16rqAFADqsBL4A0wU/KZB8B83BUhsfIrdUttlmT1PZ75vrJLJH99jQJTwHOgAjSAI2AP+Nq1RMAtyUqaveZr6dkAAAAASUVORK5CYII="/>
+</svg>

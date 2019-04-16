@@ -12,20 +12,32 @@
 </head>
 <body>
 <header class="header">
-  <div class="header-main-section">
-	<div class="main-logo"><a class="main-logo__link" href="#">WAPIK</a></div>
-	<div class="main-phone">+62 202 555 0117</div>
-	<nav class="main-menu">
-	  <ul class="main-menu__list">
-		<li class="main-menu__list-item"><a class="main-menu__list-link" href="#">HOME</a></li>
-		<li class="main-menu__list-item"><a class="main-menu__list-link" href="#">ABOUT US</a></li>
-		<li class="main-menu__list-item"><a class="main-menu__list-link" href="#">PRICING</a></li>
-		<li class="main-menu__list-item"><a class="main-menu__list-link" href="#">CONTACT US</a></li>
-		<li class="main-menu__list-item"><button class="main-menu__list-button"><a class="main-menu__list-link" href="#">GET STARTED</a></button></li>
-	  </ul>	
-	</nav>	  
+  <div class="header__section">
+	  <div class="main-logo"><a class="main-logo__link" href="#">WAPIK</a></div>
+	  <div class="main-phone"><a class="main-phone__link" href="#">+62 202 555 0117</a></div>
+	  <nav class="main-menu main-menu__container">
+	    <ul class="main-menu__list">
+		    <li class="main-menu__list-item"><a class="main-menu__list-link" href="#">HOME</a></li>
+		    <li class="main-menu__list-item"><a class="main-menu__list-link" href="#">ABOUT US</a></li>
+		    <li class="main-menu__list-item"><a class="main-menu__list-link" href="#">PRICING</a></li>
+		    <li class="main-menu__list-item"><a class="main-menu__list-link" href="#">CONTACT US</a></li>
+		    <li class="main-menu__list-item"><button class="main-menu__list-button"><a class="main-menu__list-link" href="#">GET STARTED</a></button></li>
+			</ul>
+		</nav>	
+		<div class="burger-menu burger-menu__container">
+			<div class="burger-menu__line-1"></div>
+			<div class="burger-menu__line-2"></div>
+			<div class="burger-menu__line-3"></div>
+		</div>
+		<ul class="burger-menu-list">
+			 <li class="burger-menu-list__item"><a class="burger-menu__list-link" href="#">HOME</a></li>
+			<li class="burger-menu-list__item"><a class="burger-menu__list-link" href="#">ABOUT US</a></li>
+			<li class="burger-menu-list__item"><a class="burger-menu__list-link" href="#">PRICING</a></li>
+			<li class="burger-menu-list__item"><a class="burger-menu__list-link" href="#">CONTACT US</a></li>
+			<li class="burger-menu-list__item"><a class="burger-menu__list-link" href="#">GET STARTED</a></li>
+		</ul>	  
   </div>	
-  <h1 class="main-heading">
+  <h1 class="main-heading main-heading__container">
     Welcome to Wapik
     <p class="main-heading__description">Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</p>
     <button class="main-heading__button"><a class="main-heading__link" href="#">LEARN MORE</a></button>
@@ -34,7 +46,17 @@
 <main class="main">
 
 </main>
-<script>
+<script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous">
 </script>	
+<script>
+	$(document).ready(function(){
+		$('.burger-menu').click(function(){
+			$('.burger-menu-list').fadeToggle();
+		})
+	});
+</script>
 </body>
 </html>

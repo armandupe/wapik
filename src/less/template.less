@@ -1,0 +1,100 @@
+.template {
+  display: flex;
+  flex-direction: column;
+  background-color: #eef1ec;
+}
+
+.template__heading {
+  font-family: @h2-font-family;
+  font-size: @h2-font-size;
+  font-weight: @h2-font-weight;
+  color: @h2-font-color;
+  text-align: center;
+  position: relative;
+  padding-top: 75px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 1px;
+    background: #6fb048;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    @media (max-width: 556px) {
+      top: 150px;
+    }
+  }
+}
+
+.template__description {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: @paragraph-font-size;
+  color: @paragraph-font-color;
+  line-height: @line-height;
+  padding-bottom: 10px;
+}
+
+.template__info {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 1100px) {
+    flex-wrap: wrap;
+  }
+}
+
+.template__img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 100px;
+  @media (max-width: 500px) {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+.template__specification {
+  padding-top: 100px;
+  width: 45%;
+  @media (max-width: 1100px) {
+    width: 85%;
+  }
+}
+
+.template__title {
+  font-family: @h2-font-family;
+  font-size: @h2-font-size;
+  font-weight: @h2-font-weight;
+  color: @h2-font-color;
+  text-align: left;
+}
+
+.template__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: @paragraph-font-size;
+  color: @paragraph-font-color;
+  line-height: @line-height;
+  text-align: left;
+  width: 70%;
+  @media (max-width: 1100px) {
+    width: 100%;
+  }
+}
+
+.template__paragraph-feature {
+  font-family: "Roboto", sans-serif;
+  font-size: @paragraph-font-size;
+  color: @paragraph-font-color;
+  line-height: @line-height;
+  position: relative;
+  text-indent: 40px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    background: url(../images/home/section-phone/check.png) no-repeat;
+  }
+}

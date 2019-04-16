@@ -43,7 +43,9 @@
     width: 1px;
     height: 20px;
     background-color: rgba(255, 255, 255, 0.2);
-    @media @mobile {display: none;}
+    @media @mobile {
+      display: none;
+    }
   }
   @media (max-width: 1080px) {
     margin-left: 10%;
@@ -60,7 +62,9 @@
   position: relative;
   top: 7px;
   color: #fff;
-  @media @mobile {left: -30px;}
+  @media @mobile {
+    left: -30px;
+  }
   &::before {
     position: absolute;
     left: -20px;
@@ -72,13 +76,19 @@
 }
 
 .main-menu {
-  @media (max-width: 980px) {display: none;}
+  @media (max-width: 980px) {
+    display: none;
+  }
 }
 
 .main-menu__container {
   margin-left: 22%;
-  @media (max-width: 1080px) {margin-left: 10%;}
-  @media (max-width: 1024px) {margin-left: 5%;}
+  @media (max-width: 1080px) {
+    margin-left: 10%;
+  }
+  @media (max-width: 1024px) {
+    margin-left: 5%;
+  }
 }
 
 .main-menu__list {
@@ -135,26 +145,32 @@
   font-family: Roboto;
   font-size: 38px;
   color: @main-heading-color;
-  @media (max-width: 600px) {width: 90%;}
-  @media @mobile {font-size: 28px;}
+  @media (max-width: 600px) {
+    width: 90%;
+  }
+  @media @mobile {
+    font-size: 28px;
+  }
 }
 
 .main-heading__container {
   position: absolute;
-  top: 50%;
+  top: 400px;
   transform: translateY(-50%);
   left: 15%;
-  @media (max-width: 600px) {left: 5%;}
+  @media (max-width: 600px) {
+    left: 5%;
+  }
 }
 
 .main-heading__description {
   line-height: 1.5;
-  font-weight: 500;  
+  font-weight: 500;
   font-size: 16px;
 }
 
 .main-heading__button {
-  width: 38%;  
+  width: 38%;
   border: none;
   border-radius: 2px;
   background-color: #6fb048;
@@ -175,20 +191,21 @@
   text-decoration: none;
   position: relative;
   top: -7px;
-  @media @mobile {top: -5px;}
+  @media @mobile {
+    top: -5px;
+  }
 }
-
-
 
 .burger-menu {
   display: none;
-  @media (max-width: 980px) {display: block;}
+  @media (max-width: 980px) {
+    display: block;
+  }
 }
-
 
 .burger-menu__container {
   position: absolute;
-  top: 6%;
+  top: 37px;
   right: 5%;
   &:hover .burger-menu__line-1 {
     transform: translateX(10px);
@@ -227,4 +244,3 @@
   top: 3px;
   left: -30px;
 }
-

@@ -1,0 +1,30 @@
+.pricing-and-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-and-plan__heading {
+  font-family: @h2-font-family;
+  font-weight: @h2-font-weight;
+  font-size: @h2-font-size;
+  color: @h2-font-color;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 1px;
+    background: #6fb048;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.pricing-and-plan__description {
+    font-family: 'Roboto', sans-serif;
+    font-size: @paragraph-font-size;
+    color: @paragraph-font-color;
+    line-height: @line-height;
+}

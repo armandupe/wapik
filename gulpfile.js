@@ -11,7 +11,8 @@ var gulp = require("gulp");
 gulp.task("browser-sync", function() {
   browserSync({
     server: {
-      baseDir: "./"
+      baseDir: "./",
+      index: 'about-us.html'
     },
     notify: false
   });
@@ -57,7 +58,7 @@ gulp.task("scripts", function() {
 
 gulp.task("watch", function() {
   gulp.watch("src/js/*.js", gulp.parallel("scripts"));
-  gulp.watch("src/less/*.less", gulp.parallel("less"));
+  gulp.watch("src/less/**/*.less", gulp.parallel("less"));
   gulp.watch("*html", gulp.parallel("html"));
   gulp.watch("images/*", gulp.parallel("compress"));
 });

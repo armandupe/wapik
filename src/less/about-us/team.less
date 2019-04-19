@@ -1,0 +1,78 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  background: #eef1ec;
+  font-family: "Roboto", sans-serif;
+}
+
+.team__heading {
+  font-size: @h2-font-size;
+  font-weight: @h2-font-weight;
+  color: @h2-font-color;
+  text-align: center;
+  position: relative;
+  padding-top: 95px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 1px;
+    background: #6fb048;
+    top: 145px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.team__description {
+  text-align: center;
+  font-size: @paragraph-font-size;
+  color: @paragraph-font-color;
+  width: 60%;
+  align-self: center;
+  line-height: @line-height;
+  padding-bottom: 70px;
+}
+
+.team__terms {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team__member {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  @media (max-width: 677px) {
+    margin-right: 10px;
+  }
+  @media (max-width: 480px) {
+    margin-right: 0;
+  }
+}
+
+.team__member:hover .team__photo {
+  box-shadow: 0 0 5px 3px rgba(100, 159, 65, 0.5);
+  border-radius: 10%;
+}
+
+.team__photo {
+  max-width: 100%;
+  height: auto;
+  transition-delay: 0.1s;
+  transition-duration: 0.3s;
+}
+
+.team__member-name {
+  font-size: 15px;
+  color: #0f5f5c;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.team__member-profession {
+  font-size: 15px;
+  color: @paragraph-font-color;
+  padding-bottom: 120px;
+}

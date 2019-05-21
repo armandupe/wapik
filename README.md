@@ -1,3 +1,3 @@
 # [wapik](https://armandupe.github.io/wapik/)
-(preview.jpg)
+![preview](preview.jpg)
 landing page template
